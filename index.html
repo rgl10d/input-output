@@ -62,73 +62,79 @@
       <div id="content-wrap">
         <!-- Page Title -->
         <h1 id="page-title">SQL Shorthand - Generate SQL and Data Scripts</h1>
-        <!-- Input Section -->
-        <div class="row">
-          <section class="col-sm-5 wrapper">
-            <div id="button-tray-input">
-              <button
-                type="button"
-                class="btn btn-outline-success"
-                id="generate-btn"
-              >
-                Generate SQL
-              </button>
-              <button
-                type="button"
-                class="btn btn-outline-danger"
-                id="clear-btn"
-              >
-                Clear
-              </button>
-              <button
-                type="button"
-                class="btn btn-outline-primary"
-                id="example-btn"
-              >
-                Example
-              </button>
-              <button
-                type="button"
-                class="btn btn-outline-warning"
-                id="help-btn"
-              >
-                Help
-              </button>
-            </div>
-            <div class="card">
-              <div class="card-header">SQL Shorthand</div>
-              <textarea
-                class="form-control"
-                id="input-text-area"
-                rows="15"
-              ></textarea>
-            </div>
-          </section>
-          <!-- Output Section -->
-          <section class="col-sm-5 wrapper">
-            <div id="button-tray-output">
-              <button type="button" class="btn btn-outline-secondary">
-                Download
-              </button>
-            </div>
-            <div class="card">
-              <div class="card-header">SQL DDL</div>
-              <textarea
-                class="form-control"
-                id="input-text-area"
-                rows="15"
-                readonly
-              ></textarea>
-            </div>
-          </section>
-        </div>
+
+        <div class="container-fluid">
+          <div id="first-row" class="row">
+                      <!-- Input Section -->
+            <section class="col-sm-5 wrapper">
+              <div id="button-tray-input">
+                <button
+                  type="button"
+                  class="btn btn-outline-success"
+                  id="generate-btn"
+                >
+                  Generate SQL
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-danger"
+                  id="clear-btn"
+                >
+                  Clear
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-primary"
+                  id="example-btn"
+                >
+                  Example
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-warning"
+                  id="help-btn"
+                >
+                  Help
+                </button>
+              </div>
+              <div class="card">
+                <div class="card-header">SQL Shorthand</div>
+                <textarea
+                  class="form-control"
+                  id="input-text-area"
+                  rows="15"
+                ></textarea>
+              </div>
+            </section>
+            <!-- Output Section -->
+            <section class="col-sm-5 wrapper">
+              <div id="button-tray-output">
+                <button type="button" class="btn btn-outline-secondary">
+                  Download
+                </button>
+              </div>
+              <div class="card">
+                <div class="card-header">SQL DDL</div>
+                <textarea
+                  class="form-control"
+                  id="input-text-area"
+                  rows="15"
+                  readonly
+                ></textarea>
+              </div>
+            </section>
+          </div>
+
         <!-- Settings Section -->
         <div id="second-row" class="row">
           <section class="col-sm-5 wrapper">
             <div class="card">
               <div class="card-header">Settings</div>
               <div class="card-body">
-                <div id="database-dropdown-container" class="input-group-prepend">
+                <div
+                  id="database-dropdown-container"
+                  class="input-group-prepend"
+                >
                   <span class="input-group-text">Choose Database</span>
                   <select
                     className="custom-select scrollable-menu"
