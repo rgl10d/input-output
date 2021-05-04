@@ -18,3 +18,15 @@
 #button-tray-1 {
     margin-left: 100px;
 }
+
+#footer-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 62px;
+}
+
+#footer-social-media {
+    float: right;
+}
