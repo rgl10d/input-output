@@ -1,4 +1,4 @@
-.navbarContainer {
+#navbarContainer {
     position: fixed;
     top: 0;
     right: 0;
@@ -12,7 +12,11 @@
 
 #page-title {
     text-align: center;
-    margin: 50px 0px 50px 0px;
+    margin: 75px 0px 50px 0px;
+}
+
+.wrapper {
+    margin: 0 auto;
 }
 
 .input-output-textarea {
@@ -22,13 +26,10 @@
 
 #button-tray-input {
     margin-bottom: 20px;
-    /* margin-left: 66%; */
 }
 
 #button-tray-output {
-    /* width: 100%; */
     margin-bottom: 20px;
-    /* margin-left: 100%; */
 }
 
 .text-box-title {
