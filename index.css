@@ -48,6 +48,15 @@
   background: #f5f2f0;
 }
 
+#second-row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#database-dropdown-container {
+    margin-bottom: 15px;
+}
+
 #footer-container {
   position: absolute;
   bottom: 0;
