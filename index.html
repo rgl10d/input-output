@@ -48,74 +48,83 @@
         </ul>
       </div>
     </nav>
-    <!-- Page Title -->
-    <h1 id="page-title">SQL Shorthand - Generate SQL and Data Scripts</h1>
-    <!-- Input Section -->
-    <!-- <div class="container"> -->
-    <div class="row">
-      <section class="col-sm-5 wrapper">
-        <div id="button-tray-input">
-          <button type="button" class="btn btn-outline-success">
-            Generate SQL
-          </button>
-          <button type="button" class="btn btn-outline-danger">Clear</button>
+    <div id="page-container">
+      <div id="content-wrap">
+        <!-- Page Title -->
+        <h1 id="page-title">SQL Shorthand - Generate SQL and Data Scripts</h1>
+        <!-- Input Section -->
+        <!-- <div class="container"> -->
+        <div class="row">
+          <section class="col-sm-5 wrapper">
+            <div id="button-tray-input">
+              <button type="button" class="btn btn-outline-success">
+                Generate SQL
+              </button>
+              <button type="button" class="btn btn-outline-danger">
+                Clear
+              </button>
 
-          <button type="button" class="btn btn-outline-primary">Example</button>
-          <button type="button" class="btn btn-outline-warning">Help</button>
+              <button type="button" class="btn btn-outline-primary">
+                Example
+              </button>
+              <button type="button" class="btn btn-outline-warning">
+                Help
+              </button>
+            </div>
+            <div class="card">
+              <div class="card-header">SQL Shorthand</div>
+              <textarea
+                class="form-control"
+                id="input-text-area"
+                rows="15"
+              ></textarea>
+            </div>
+          </section>
+          <!-- Output Section -->
+          <section class="col-sm-5 wrapper">
+            <div id="button-tray-output">
+              <button type="button" class="btn btn-outline-secondary">
+                Download
+              </button>
+            </div>
+            <div class="card">
+              <div class="card-header">SQL DDL</div>
+              <textarea
+                class="form-control"
+                id="input-text-area"
+                rows="15"
+                readonly
+              ></textarea>
+            </div>
+          </section>
         </div>
-        <div class="card">
-          <div class="card-header">SQL Shorthand</div>
-          <textarea
-            class="form-control"
-            id="input-text-area"
-            rows="15"
-          ></textarea>
-        </div>
-      </section>
-      <!-- Output Section -->
-      <section class="col-sm-5 wrapper">
-        <div id="button-tray-output">
-          <button type="button" class="btn btn-outline-secondary">
-            Download
-          </button>
-        </div>
-        <div class="card">
-          <div class="card-header">SQL DDL</div>
-          <textarea
-            class="form-control"
-            id="input-text-area"
-            rows="15"
-            readonly
-          ></textarea>
-        </div>
-      </section>
-    </div>
-    <!-- </div> -->
-    <!-- Footer -->
-    <footer id="footer-container" class="bg-dark text-center text-white">
-      <!-- Copyright -->
-      <div class="text-center p-3">
-        © 2021
-        <a class="text-white" href="#">Data Design Group, Inc. </a>
-        All rights reserved.
-        <!-- Social Media Links -->
-        <section id="footer-social-media">
-          <!-- Facebook -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-          <!-- Twitter -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-twitter"></i
-          ></a>
-        </section>
       </div>
-    </footer>
+      <!-- Footer -->
+      <footer id="footer-container" class="bg-dark text-center text-white">
+        <!-- Copyright -->
+        <div class="text-center p-3">
+          © 2021
+          <a class="text-white" href="#">Data Design Group, Inc. </a>
+          All rights reserved.
+          <!-- Social Media Links -->
+          <section id="footer-social-media">
+            <!-- Facebook -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <!-- Twitter -->
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </section>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

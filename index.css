@@ -1,52 +1,61 @@
 #navbarContainer {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 #navbarLinks {
-    margin-left: auto;
+  margin-left: auto;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
 }
 
 #page-title {
-    text-align: center;
-    margin: 75px 0px 50px 0px;
+  text-align: center;
+  margin: 75px 0px 50px 0px;
 }
 
 .wrapper {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .input-output-textarea {
-    border: 1px black solid;
-    border-radius: 5px;
+  border: 1px black solid;
+  border-radius: 5px;
 }
 
 #button-tray-input {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #button-tray-output {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .text-box-title {
-    padding: 10px;
-    width: 100%;
-    min-height: 40px;
-    background: #f5f2f0;
+  padding: 10px;
+  width: 100%;
+  min-height: 40px;
+  background: #f5f2f0;
 }
 
 #footer-container {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    min-height: 62px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 62px;
 }
 
 #footer-social-media {
-    float: right;
+  float: right;
 }
