@@ -53,13 +53,17 @@
   background: #f5f2f0;
 }
 
+.copy-btn {
+  float: right;
+}
+
 #second-row {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 75px;
 }
 
 #database-dropdown-container {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 #footer-container {
@@ -72,4 +76,12 @@
 
 #footer-social-media {
   float: right;
+}
+
+@media only screen and (max-device-width: 575px) {
+  #button-tray-output {
+    margin: 30px 0px 20px 0px;
+    border-top: black 1px solid;
+    padding: 20px 0px 0px 0px;
+  }
 }
