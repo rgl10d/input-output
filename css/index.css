@@ -78,6 +78,16 @@
   float: right;
 }
 
+#fb-icon {
+  border-radius: 30px;
+  margin: 0rem .2rem!important;
+}
+
+#twitter-icon {
+  border-radius: 30px;
+  margin: 0rem .2rem!important;
+}
+
 @media only screen and (max-device-width: 575px) {
   #button-tray-output {
     margin: 30px 0px 20px 0px;
